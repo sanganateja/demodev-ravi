@@ -64,9 +64,9 @@ pipeline {
 	    stage('DEPLOY TO DEV ENV') {
         steps {
           timeout(time: 5, unit: 'MINUTES'){      
-				  marathonDeployment()
+			
             }
           }
         }	
-	}
+    }
 }	
